@@ -1,0 +1,53 @@
+I have no required fields
+Personal details page only selects the 1st service provider, so if you have two service providers with the same merchant_id, then it'll only take the 1st service provider.
+
+DONT WORRY ABOUT THESE:
+My edit buttons dont work
+My 'Buy Credits' button doesnt work
+
+My App starts at admin.php, which is the "Create a profile page"
+Then it proceeds to profile_create.php : Personal Details
+Then it proceeds to profile_create_services.php : Service Offering Details
+Then it proceeds to profile_create_areas.php : Areas of Operation
+	When you click on a location, its checkbox options will appear
+
+Then it proceeds to profile_create_portfolio.php : Images of work done
+
+In the Dashboard:
+I have Customer requests, which should come from you.(each with a lead_id, which is a Job request Id 
+When you click "VIEW DETAILS", you see the lead or request details, from where you can send a quote.
+Then you can send a quote, with the description and amount,
+Then you can confirm the quote details before you send it
+
+Once the quote is sent, it redirects to purchased_leads.php(MY QUOTES)
+The idea is that, once the quote is accepted, it would mmove into the (MY PROJECTS PAGE)
+
+
+My Pages
+profile_confirm.php
+profile_create_services.php
+admin.php
+profile_create_areas.php
+purchased_leads.php
+confirm_quote.php
+send_quote.php
+lead_details.php
+home.php
+my_profile.php
+profile_create_portfolio.php
+profile_create.php
+jquery-1.11.1.min.js
+
+Folders
+images
+images/gallery
+
+Core
+Updates to campagin class (All my code is at the top)
+
+DB
+modified campagins table
+added locations table
+added services table
+added quotes table
+added portfolio table
